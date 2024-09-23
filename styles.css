@@ -1,0 +1,121 @@
+*{
+  margin: 0;  
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #dddddd;
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #eeca7c;
+    padding: 20px;
+
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li {
+margin: 0 20px;
+}
+nav ul li a{
+    color:#da7cc5;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s;
+}
+nav ul li a:hover{
+    color: #f8916b;
+}
+section:not(#home){
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#home{
+    background-image:url(https://www.rbsdirect.com.br/imagesrc/35698884.jpg?w=700) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #741e2c;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.content img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+.content.text{
+    max-width:600px ;
+    text-align: left;
+}
+.content.text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #690202;
+}
+.content.text p{
+    font-size: 1.1em;
+    color: #8b0000;
+}
+#services{
+    background-color: #7a482b;
+}
+#about{
+    background-color: #7a482b;
+}
+#ocasiao{
+    background-color: #7a482b;
+}
+#contact{
+    background-color: #7a482b;
+}
+.cta-button{
+    margin-top: 30px;
+    background-color: #9ad3e6;
+    color: #000000;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px #9ad3e6d2;
+    transition:background-color 1s ease,transform 1s ease;
+}
+.cta-button:hover{
+    box-shadow: 0px 1px 3px #9ad3e6d2;
+}
+footer{
+    background-color: #7a482b;
+    height: 100px;
+    width: 100;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+
+}
